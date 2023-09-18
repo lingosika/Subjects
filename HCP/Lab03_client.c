@@ -6,7 +6,16 @@
 #include <sys/shm.h>
 
 typedef struct{
-
     char s; //semaphore
+    int sum;
+}SHM;
 
+main(int argc, char *argv[]){
+
+    int shm_id;
+    void *shm_add;
+    SHM *shm;
+    int key;
+
+    int data;
 }
